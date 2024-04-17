@@ -1,0 +1,14 @@
+Data types in Terraform are like categories for the values you use in your configurations. 
+They're important because they tell you what kind of values you're dealing with and what you can do with them. 
+
+Here's a basic rundown:
+
+String: Text that are enclosed in quotes, like "hello" or "terraform".
+Number: Numeric values, like 42 or 3.14.
+Boolean: True/false values, like true or false.
+List: Collection of values in square brackets, like [1, 2, 3] or ["a", "b", "c"].
+Map: Key-value pairs in curly braces, like { "name" = "Engineer", "age" = 26 }.
+Tuple: Fixed-size list with different data types, like (1, "hello", true).
+Object: Represents a collection of attributes, often used for resources and configurations.
+
+Above data types help you work with different kinds of values in your Terraform code, making it easier to manage and manipulate your infrastructure configurations.
