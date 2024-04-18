@@ -1,12 +1,12 @@
-provider "aws" {
-    region = "eu-west-2"
+# provider "aws" {
+#     region = "eu-west-2"
   
-}
-variable "iam_username" {
-    type = number
-}
+# }
+# variable "iam_username" {
+#     type = number
+# }
 
-resource "aws_iam_user" "user" {
-    name = var.iam_username
+# resource "aws_iam_user" "user" {
+#     name = var.iam_username
   
-}
+# }
