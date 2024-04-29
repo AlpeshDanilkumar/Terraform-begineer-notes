@@ -1,0 +1,11 @@
+What is Terraform Workspace?
+Workspaces are commonly used to manage different environments such as development, staging, and production.
+Each workspace can represent a distinct environment with its own set of resources and configurations. 
+It allows you to manage different sets of resources independently. For example, you might have one workspace for your development environment and another for your production environment. Each workspace has its own set of resources and configurations.
+
+Workspace Commands:
+terraform workspace list: This command lists all the available workspaces in your Terraform project.
+terraform workspace new <workspace_name>: This command creates a new workspace with the given name.
+terraform workspace select <workspace_name>: This command switches to the specified workspace.
+terraform workspace show: This command displays the name of the currently selected workspace.
+terraform workspace delete <workspace_name>: This command deletes the specified workspace.
