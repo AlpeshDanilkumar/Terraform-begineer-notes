@@ -3,5 +3,6 @@ terraform {
     bucket = "aldan-terraform-backend"
     key    = "network/terraform.tfstate"
     region = "eu-west-2"
+    dynamodb_table = "terraform-state-locking"
   }
 }
